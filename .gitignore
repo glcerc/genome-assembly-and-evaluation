@@ -1,0 +1,25 @@
+# Raw sequencing data and soft links
+/Co-4
+/RNAseq_Sha
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Large analysis outputs
+*.jf
+/assemblies/
+
+# FastQC archives
+*_fastqc.zip
+
+# SLURM logs
+/logs/
+*.o
+*.e
+slurm-*.out
+
+# Backup and temporary files
+/backup_scripts/
+*.tmp
+*.swp
