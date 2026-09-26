@@ -1,0 +1,8 @@
+Software	Version	Execution
+FastQC	0.11.9	Module
+fastp	0.23.4	Module
+Jellyfish	2.3.0	Module
+Flye	2.9.5	Apptainer container
+Hifiasm	0.25.0	Apptainer container
+LJA	0.2	Apptainer container
+Trinity	2.15.1	Module
