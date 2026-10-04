@@ -23,3 +23,28 @@ slurm-*.out
 /backup_scripts/
 *.tmp
 *.swp
+# Genome and transcriptome assemblies
+*.fasta
+*.fa
+*.fna
+*.gfa
+
+# Meryl databases and Merqury intermediate files
+*.meryl/
+*.merylData
+*.merylIndex
+
+# MUMmer intermediate files
+*.delta
+*.filter
+*.fplot
+*.rplot
+*.gp
+
+# Evaluation working directories
+/assembly_evaluation/
+/read_QC/
+/busco_downloads/
+
+# Trinity intermediate outputs
+/Trinity/
